@@ -18,7 +18,7 @@ const Shop = () => {
 
 	useEffect(() => {
 		fetch(
-			`http://evening-plains-98170.herokuapp.com/products?page=${page}&&size=${size}`
+			`https://evening-plains-98170.herokuapp.com/products?page=${page}&&size=${size}`
 		)
 			.then((res) => res.json())
 			.then((data) => {

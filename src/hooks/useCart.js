@@ -8,7 +8,7 @@ const useCart = () => {
 		const savedCart = getStoredCart();
 		const keys = Object.keys(savedCart);
 
-		fetch('http://evening-plains-98170.herokuapp.com/products/byKeys', {
+		fetch('https://evening-plains-98170.herokuapp.com/products/byKeys', {
 			method: 'post',
 			headers: {
 				'content-type': 'application/json',

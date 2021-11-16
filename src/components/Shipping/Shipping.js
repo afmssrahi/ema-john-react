@@ -16,7 +16,7 @@ const Shipping = () => {
 		const saveCart = getStoredCart();
 		data.order = saveCart;
 
-		fetch('http://evening-plains-98170.herokuapp.com/orders', {
+		fetch('https://evening-plains-98170.herokuapp.com/orders', {
 			method: 'POST',
 			headers: {
 				'content-type': 'application/json',
